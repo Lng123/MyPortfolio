@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 // import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
-import Projects from './components/Projects'
+import Projects from './components/Projects';
 import * as serviceWorker from './serviceWorker';
 import './index.css';
 import 'react-mdl/extra/material.css';

@@ -23,6 +23,13 @@ import aws7 from "../img/finalemail.png";
 import aws8 from "../img/finalses.png";
 import aws9 from "../img/finaldynamodb.png";
 import aws10 from "../img/finals3host.png";
+import map1 from "../img/map1.png";
+import map2 from "../img/map2.png";
+import map3 from "../img/map3.png";
+import map4 from "../img/map4.png";
+import map5 from "../img/map5.png";
+import map6 from "../img/map6.png";
+import map7 from "../img/map7.png";
 import Collapse from "./Collapse.js";
 import Disabled from "./CollapseDisabled.js";
 
@@ -49,6 +56,73 @@ class Projects extends Component {
     return (
       <div className="projects" id="projects">
         <Grid>
+        <Grid item xs>
+            <div className="projects-grid">
+              <Card id="p1" shadow={5}>
+                <CardText>
+                  <span>BCIT Interactive Map</span>
+                </CardText>
+
+                <Carousel interval={5000}>
+                  <Carousel.Item>
+                    <img src={map1} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={map2} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={map3} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={map4} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={map5} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={map6} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={map7} />
+                  </Carousel.Item>
+
+                </Carousel>
+                <Disabled git="https://github.com/Lng123/BCIT-Map">
+                  <CardText>
+                    <h2>BCIT Interactive Map</h2>
+                    Our client BCIT Student Life Office would like to have an interactive map of BCIt's Burnaby campus developed as a resource for new students to navigate
+                    around campus. This map is designed to be implemented into an iframe of specific dimensions on the the Learning Hub at BCIT.
+                    The interactive map included multiple categories for different services. Choosing an option in a service would 
+                    highlight specific areas on the map, as well as a description box. When hovering over the highlighted areas, a tooltip pops up
+                    to display additional information about that particular area.
+                    <br />
+                    <br />
+                    The app architecture is based off the Model View Controller pattern. 
+                    The model component is where data is transferred between the MySQL database and the app using MySQL queries. 
+                    The app retrieves data such as map descriptions and buildings to highlight.
+                    The view represents the user interface component and determines what the user sees while using the app, 
+                    such as a menu or a map. Express-Handlebars, HTML CSS, and Bootstrap are used for this component.
+                    The controller component is the middle layer between the model and the view. 
+                    It listens to user inputs from the view like a menu option click or page navigation. 
+                    The controller then calls the appropriate method in the model component. 
+                    The controller would also manipulate data and decide what data or view gets returned. The controller component is written in JavaScript and Node.js.
+                    To reduce the amount fo time to load, dynamic data rendering is used. Data retrieved from the model is passed through the controller and sent to a route
+                    as a JSON object, which is then detched dynamically to update the information on the page.
+                    <br></br>
+                    <h4>Technologies</h4>
+                    HTML, CSS, BootStrap, JavaScript, MySQL, Node.js, jQuery
+                  </CardText>
+                </Disabled>
+              </Card>
+            </div>
+          </Grid>
+
           <Grid item xs>
             <div className="projects-grid">
               <Card id="p1" shadow={5}>
@@ -97,7 +171,7 @@ class Projects extends Component {
                     <img src={aws10} />
                   </Carousel.Item>
                 </Carousel>
-                <Collapse git="https://github.com/Lng123/Argos">
+                <Collapse git="https://github.com/Lng123/Appointment-Maker">
                   <CardText>
                     <h2>Serverless Appointment Maker</h2>
                     A web application for booking appointments. Each user is required to register/signin.
@@ -116,8 +190,6 @@ class Projects extends Component {
                     was based off and modified from an Amazon example repo. Cognito is used as an authorizer
                     in to the API Gateway method requests to ensure that the users are registered and logged in to the app before using it. 
                     <br />
-                    <br />
-                    <br></br>
                     <h4>Technologies</h4>
                     AWS Cognito, AWS Lambda, AWS SES, AWS API Gateway, AWS DynamoDB, AWS S3 Bucket
                   </CardText>

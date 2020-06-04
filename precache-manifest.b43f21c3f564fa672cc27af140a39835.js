@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac617a245796832230c273aeba6c9768",
+    "revision": "9b600ab883386a56b7b45e61c882c3e4",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "d68cb5dfeb5ceba71401",
+    "revision": "5db2af578ffd04f6229a",
     "url": "/MyPortfolio/static/css/2.5206c547.chunk.css"
   },
   {
-    "revision": "59252468ac5e0c8342a2",
-    "url": "/MyPortfolio/static/css/main.2ac85804.chunk.css"
+    "revision": "bf5271878e1e1c3dcb40",
+    "url": "/MyPortfolio/static/css/main.e07556ce.chunk.css"
   },
   {
-    "revision": "d68cb5dfeb5ceba71401",
-    "url": "/MyPortfolio/static/js/2.bfcd9b8e.chunk.js"
+    "revision": "5db2af578ffd04f6229a",
+    "url": "/MyPortfolio/static/js/2.09213821.chunk.js"
   },
   {
     "revision": "effe4e92e8658ad9dfbf53e804a021fb",
-    "url": "/MyPortfolio/static/js/2.bfcd9b8e.chunk.js.LICENSE.txt"
+    "url": "/MyPortfolio/static/js/2.09213821.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59252468ac5e0c8342a2",
-    "url": "/MyPortfolio/static/js/main.e99885ae.chunk.js"
+    "revision": "bf5271878e1e1c3dcb40",
+    "url": "/MyPortfolio/static/js/main.edbd65bf.chunk.js"
   },
   {
     "revision": "59918b864e4e41672676",
@@ -118,6 +118,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0cbd7270e72c8885c17b4ba59c0bb4a8",
     "url": "/MyPortfolio/static/media/logo-linkedin.0cbd7270.svg"
+  },
+  {
+    "revision": "5f493c7fe01ad7a805a54cd9b2849157",
+    "url": "/MyPortfolio/static/media/map1.5f493c7f.png"
+  },
+  {
+    "revision": "764d82164a9b0a5439e07045bcb8c9a6",
+    "url": "/MyPortfolio/static/media/map2.764d8216.png"
+  },
+  {
+    "revision": "a7962cabebb2fdb40eb34756d9c72bec",
+    "url": "/MyPortfolio/static/media/map3.a7962cab.png"
+  },
+  {
+    "revision": "8b1cb309f3ef99ae886c458d3e4a7583",
+    "url": "/MyPortfolio/static/media/map4.8b1cb309.png"
+  },
+  {
+    "revision": "e4c01e13b7cbc49ee8c5db1c4958352c",
+    "url": "/MyPortfolio/static/media/map5.e4c01e13.png"
+  },
+  {
+    "revision": "ba1642ee2fe275715f1043f95b9e6e17",
+    "url": "/MyPortfolio/static/media/map6.ba1642ee.png"
+  },
+  {
+    "revision": "6a3457e82ad3c31b9fd2f24924490222",
+    "url": "/MyPortfolio/static/media/map7.6a3457e8.png"
   },
   {
     "revision": "8e21df1e46d724c1fb80fb1f111a84f4",

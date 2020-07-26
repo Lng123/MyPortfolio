@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa4d2b881bc8b6e60b01ba47c60a3712",
+    "revision": "dbf2e1ef246bc2f2f54fbef7410485e4",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "5db2af578ffd04f6229a",
+    "revision": "c69ee271f1edd5ca9ddb",
     "url": "/MyPortfolio/static/css/2.5206c547.chunk.css"
   },
   {
-    "revision": "08f59d09cf81818fb17b",
-    "url": "/MyPortfolio/static/css/main.e07556ce.chunk.css"
+    "revision": "bb2958ac557f1607e18c",
+    "url": "/MyPortfolio/static/css/main.2ac85804.chunk.css"
   },
   {
-    "revision": "5db2af578ffd04f6229a",
-    "url": "/MyPortfolio/static/js/2.09213821.chunk.js"
+    "revision": "c69ee271f1edd5ca9ddb",
+    "url": "/MyPortfolio/static/js/2.65c00b86.chunk.js"
   },
   {
     "revision": "effe4e92e8658ad9dfbf53e804a021fb",
-    "url": "/MyPortfolio/static/js/2.09213821.chunk.js.LICENSE.txt"
+    "url": "/MyPortfolio/static/js/2.65c00b86.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08f59d09cf81818fb17b",
-    "url": "/MyPortfolio/static/js/main.6bd6864e.chunk.js"
+    "revision": "bb2958ac557f1607e18c",
+    "url": "/MyPortfolio/static/js/main.a3c899e1.chunk.js"
   },
   {
     "revision": "59918b864e4e41672676",
@@ -158,5 +158,25 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56b0f5e03637161e43444d3e70c4f1fe",
     "url": "/MyPortfolio/static/media/recette3.56b0f5e0.png"
+  },
+  {
+    "revision": "82b3444bded4298916165a4f14ffa9de",
+    "url": "/MyPortfolio/static/media/yelp1.82b3444b.png"
+  },
+  {
+    "revision": "c4cd5b3b955c9985b2d8a54483db64f0",
+    "url": "/MyPortfolio/static/media/yelp2.c4cd5b3b.png"
+  },
+  {
+    "revision": "8bd1bb28d3cc39105a7ee4d12a63253a",
+    "url": "/MyPortfolio/static/media/yelp3.8bd1bb28.png"
+  },
+  {
+    "revision": "413920defce82b0bacccfabf86ea74eb",
+    "url": "/MyPortfolio/static/media/yelp4.413920de.png"
+  },
+  {
+    "revision": "fe6abe2733e397853d9999858029cfa8",
+    "url": "/MyPortfolio/static/media/yelp5.fe6abe27.png"
   }
 ]);

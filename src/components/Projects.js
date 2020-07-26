@@ -30,6 +30,11 @@ import map4 from "../img/map4.png";
 import map5 from "../img/map5.png";
 import map6 from "../img/map6.png";
 import map7 from "../img/map7.png";
+import yelp1 from "../img/yelp1.png";
+import yelp2 from "../img/yelp2.png";
+import yelp3 from "../img/yelp3.png";
+import yelp4 from "../img/yelp4.png";
+import yelp5 from "../img/yelp5.png";
 import Collapse from "./Collapse.js";
 import Disabled from "./CollapseDisabled.js";
 
@@ -93,7 +98,7 @@ class Projects extends Component {
                   </Carousel.Item>
 
                 </Carousel>
-                <Disabled git="https://github.com/Lng123/BCIT-Map">
+                <Collapse git="https://github.com/Lng123/BCIT-Map">
                   <CardText>
                     <h2>BCIT Interactive Map</h2>
                     Our client BCIT Student Life Office would like to have an interactive map of BCIt's Burnaby campus developed as a resource for new students to navigate
@@ -114,11 +119,15 @@ class Projects extends Component {
                     The controller would also manipulate data and decide what data or view gets returned. The controller component is written in JavaScript and Node.js.
                     To reduce the amount fo time to load, dynamic data rendering is used. Data retrieved from the model is passed through the controller and sent to a route
                     as a JSON object, which is then detched dynamically to update the information on the page.
-                    <br></br>
+                    <br />
+                    <br />
+                    Permission granted from the client to display project. 
+                    <br />
+                    <br />
                     <h4>Technologies</h4>
                     HTML, CSS, BootStrap, JavaScript, MySQL, Node.js, jQuery
                   </CardText>
-                </Disabled>
+                </Collapse>
               </Card>
             </div>
           </Grid>
@@ -190,6 +199,7 @@ class Projects extends Component {
                     was based off and modified from an Amazon example repo. Cognito is used as an authorizer
                     in to the API Gateway method requests to ensure that the users are registered and logged in to the app before using it. 
                     <br />
+                    <br />
                     <h4>Technologies</h4>
                     AWS Cognito, AWS Lambda, AWS SES, AWS API Gateway, AWS DynamoDB, AWS S3 Bucket
                   </CardText>
@@ -241,7 +251,8 @@ class Projects extends Component {
                     and longitude. Coordinates were not available for the bike
                     thefts dataset, and therefore a geocoding API was used to
                     convert addresses to coordinates.
-                    <br></br>
+                    <br />
+                    <br />
                     <h4>Technologies</h4>
                     Java, Firebase, Android Studio
                   </CardText>
@@ -249,7 +260,56 @@ class Projects extends Component {
               </Card>
             </div>
           </Grid>
-          <Grid>
+
+          <Grid item xs>
+            <div className="projects-grid">
+              <Card id="p1" shadow={5}>
+                <CardText>
+                  <span>Python: Discord Lunch Polling Bot</span>
+                </CardText>
+
+                <Carousel interval={5000}>
+                  <Carousel.Item>
+                    <img src={yelp1} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={yelp2} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={yelp3} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={yelp4} />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img src={yelp5} />
+                  </Carousel.Item>
+
+                </Carousel>
+                <Collapse git="https://github.com/Lng123/DiscordBot">
+                  <CardText>
+                    <h2>Discord Lunch Polling Bot</h2>
+                    A discord bot for teammates to vote and decide where to go for lunch. 
+                    The bot uses the Discord.py library on python for discord messages and the Yelp Fusion API to allow users to retreive restaurant names and information.
+                    Users can add a Yelp option for the poll using a Yelp business id. They can alternatively add a non-Yelp option.
+                    The bot creates an embed on discord which users can vote for the options added using discord reactions coresponding to the choices.
+                    After polling, the bot counts the votes, and creates an embed showing from the option with the most votes.
+                    Minutes prior to the set lunch time, the bot will send display a reminder.
+                    <br />
+                    <br />
+                    <h4>Technologies</h4>
+                    Python, Discord.py, Yelp Fusion API
+                  </CardText>
+                </Collapse>
+              </Card>
+            </div>
+          </Grid>
+
+          <Grid item xs>
             <div className="projects-grid">
               <Card id="p1" shadow={5}>
                 <CardText>
@@ -278,7 +338,7 @@ class Projects extends Component {
                   </Carousel.Item>
                 </Carousel>
 
-                <Disabled git="https://github.com/Lng123/taoex.club">
+                <Collapse git="https://github.com/Lng123/taoex.club">
                   <CardText>
                     <h2>TAOEX Club</h2>
                     I had the oppurtunity to work on TAOEX Club for our client
@@ -300,10 +360,13 @@ class Projects extends Component {
                     rankings, and matches.
                     <br />
                     <br />
+                    Permission granted from the client to display project. 
+                    <br/>
+                    <br/>
                     <h4>Technologies</h4>
                     Laravel PHP Framework, MySql
                   </CardText>
-                </Disabled>
+                </Collapse>
               </Card>
             </div>
 
